@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="theme-buttons">
+            <button class="theme-button" onclick="toggleTheme('light')">Light Theme</button>
+            <button class="theme-button" onclick="toggleTheme('dark')">Dark Theme</button>
+        </div>
+        <input type="text" class="calculator-display" id="display" readonly>
+        <div class="btn-group">
+            <div class="btn-row">
+                <div class="btn">AC</div>
+                <div class="btn">LOG</div>
+                <div class="btn">^</div>
+                <div class="btn">DEL</div>
+            </div>
+            <div class="btn-row">
+                <div class="btn">1</div>
+                <div class="btn">2</div>
+                <div class="btn">3</div>
+                <div class="btn">+</div>
+            </div>
+            <div class="btn-row">
+                <div class="btn">4</div>
+                <div class="btn">5</div>
+                <div class="btn">6</div>
+                <div class="btn">-</div>
+            </div>
+            <div class="btn-row">
+                <div class="btn">7</div>
+                <div class="btn">8</div>
+                <div class="btn">9</div>
+                <div class="btn">*</div>
+            </div>
+            <div class="btn-row">
+                <div class="btn">SIN</div>
+                <div class="btn">COS</div>
+                <div class="btn">TAN</div>
+                <div class="btn">/</div>
+            </div>
+            <div class="btn-row">
+                <div class="btn">SQRT</div>
+                <div class="btn">0</div>
+                <div class="btn">.</div>
+                <div class="btn">=</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
